@@ -1,0 +1,39 @@
+Burada Web sayfasi aciklayacagim:
+bu web sayfasi yalniz html ve bootstrap kullanildi.
+
+1-Navbar:
+{
+<nav class="navbar nav-expande-lg bg-dark navbar-dark">
+        <div class="container-fluid mx-5 my-3">
+            <h2 class="text-light">Bill Shop</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+            <!--collapsed ul-->
+            <div class="collapse navbar-collapse collapse-vertical" id="menu">
+            <ul class=" navbar-nav ms-auto d-flex" id="men">
+                <li class="navbar-item "><a href="./Photos.html" class="nav-link">Photografs</a></li>
+                <li class="navbar-item "><a href="./Contact.html" class="nav-link">Contact us</a></li>
+                <li class="navbar-item "><a href="./about.html" class="nav-link">About us</a></li>
+            </ul>
+            </div>
+            
+        </div>
+        <div class="breadcrumb mx-5 navbar-brand">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item">About us</li>
+
+        </div>
+    </nav>
+    }
+    
+    Bu navbar (expande) metodu kullandum icin yatay nav olacak.
+    
+    Navda butonu olustrdum navda elemanlari cokus icin, butonu <span class="navbar-toggler-icon"></span> koduyla uc cizgi liste butonu olusturabiliriz .
+    
+    butonu basmadan sonra cukusuldu elemanlari asagida, liste gibi, gosterilecek, cokus hedefini id ile ayarlayabiliriz (data-bs-target="#menu"),
+    ve (data-bs-toggle="collapse") metodu ile cokus kullanabiliriz . 
+    
+    Elemanlari (.d-flex) kullandim icin elemanlari yan yana gosterilebilir.
+    
+    En sonda (.breadcrumb) kullandim hangi sayfada oldugumuzu gostermek icin, (li) elemanlari ile (".breadcrumb-item") kullanmaliyiz cumku bu metodu elemanlari breadcrumb'a ekleyebilir.
+    
+    
