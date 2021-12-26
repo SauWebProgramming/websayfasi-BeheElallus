@@ -1,0 +1,22 @@
+Bu sayfada fotograf albumu olusturdum, basit bir albumdur.
+{
+    <div class="container col text-center text-lg-start">
+
+        <h1 class="fw-light text-center text-lg">Photograf Album</h1>
+      
+        <hr class="mt-2 mb-5">
+      
+        <div class="col text-center text-lg-start d-flex flex-wrap ">
+      
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="./Photos/hammers2.jpg" target="blank" class="d-block mb-4 h-100">
+              <img  class="img-fluid img-thumbnail" src="./Photos/hammers2.jpg" alt="">
+
+            </a>
+          </div>
+         </div>
+}
+
+Burada container ayarladim, container'de albumu icin div olusturdum, flex ayarladim fotograflari yan yana gosterildi icin, ve flex-wrap satiri bitse yeni satira devam edilebilir.
+fotograflari <a> tagi icinde koydum yenisayfada fullscreen gostermek icin.
+".col-3 col-md-4" kullandim cunku fotograflari sirada gosterlenebilir.
