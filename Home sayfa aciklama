@@ -1,0 +1,19 @@
+Home sayfada (".card") metodu kullandim , bazi urunleri gostermek icin.
+{
+            <div class="container d-flex flex-wrap justify-content-center ">
+                
+                <div class="card border-dark col-3 m-3">
+                    <div class="card-header"><h3>Cory Hammer</h3></div>
+                    <div class="card-body"><img class="img-fluid img-thumbnail d-block" src="./Photos/aHammer.jpg" alt=""></div>
+                    <div class="card-footer">One of the best hammers on our store . This hammer is very solid that it can crush any matirial . It has a rubber handle so that the user don't feel any pain when hitting</div>
+                </div>
+                </div>
+}
+
+Bu ornekte "card"'lari (div)'de koydum ,stil kullanmak icin, (".d-flex") kullandim , yanan gosterilmek icin , ve bir satri bitirse (."flex-wrap") yeni satra devam etmek icin.
+
+(".justify-content-center") ile elemanlari maerkezde gosterilebilir icin kullandim,
+
+(Card) olusturmak icin (".card") metodu yazimaliyiz , (".col-3") kullandim icin genislik 3 olacak, m-3 de margin 3 icin kullandim.
+
+Urunun adi (".card-header")'de koydum, urunun resmi (".card-body")'de koydum ve urunun aciklama (".card-footer")'de koydum.
